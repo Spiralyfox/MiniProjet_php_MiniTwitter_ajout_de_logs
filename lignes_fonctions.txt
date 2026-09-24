@@ -1,0 +1,39 @@
+Fichier register.php - Lignes 5-31 : Inscription
+Fichier login.php - Lignes 5-20 : Connexion
+Fichier logout.php - Lignes 3-5 : Déconnexion
+Fichier profile.php - Lignes 6-17 : Modification du profil
+Fichier index.php - Lignes 7-18 : Rédaction d'un post
+Fichier follow.php - Lignes 12-14 : Abonnement / désabonnement (Traitement des requêtes)
+Fichier helpers.php - Lignes 43-48 : Abonnement (Fonction follow)
+Fichier helpers.php - Lignes 50-54 : Désabonnement (Fonction unfollow)
+
+--------------------------------------------------
+
+Format général : 
+[Date Heure]          [INFO] [IP] [NomUtilisateur] Message
+
+- Log d'une nouvelle inscription
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] Nouvel utilisateur inscrit : pseudo (Email: xxxx@xxxxxxx.com)
+Check
+
+- Log d'une connexion réussie
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] S'est connecté
+Check
+
+- Log d'une déconnexion
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] S'est déconnecté
+Check
+
+- Log un changement de profil (bio, avatar)
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] A mis à jour son profil
+Check
+
+- Log de la rédaction d'un nouveau post
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] A publié un nouveau post (Post ID : xxxx )
+Check
+
+- Log d'un nouvel abonnement
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] S'est abonné à l'utilisateur pseudo_de_l_utilisateur
+
+- Log d'un désabonnement
+[YYYY-MM-DD HH:MM:SS] [INFO] [IP] [pseudo] S'est désabonné de l'utilisateur pseudo_de_l_utilisateur
