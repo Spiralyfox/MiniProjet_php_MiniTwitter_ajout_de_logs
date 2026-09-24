@@ -26,6 +26,4 @@ Ce mini-twitter *ne log rien* volontairement, afin que vos étudiant·e·s ajout
 - Capturer les erreurs/Exceptions et les consigner.
 - Exposer une page d’administration des logs ou exporter vers un SIEM.
 
-> Le code actuel n’écrit **aucun** log.
-"# MiniProjet_php_MiniTwitter_ajout_de_logs" 
-"# MiniProjet_php_MiniTwitter_ajout_de_logs" 
+PROJET FINI : LOGS FONCTIONNELS (app.log)
